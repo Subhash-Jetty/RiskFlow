@@ -1,0 +1,501 @@
+loan_id,original_balance,credit_score_band,ltv_band,dti_band,state,loan_purpose,occupancy_type,property_type,origination_month,original_term_months,original_interest_rate
+L000138,219000,700-739,71-80,>50,VA,Refinance,Investment,2-4 Unit,2018-01,360,3.62
+L000080,430000,660-699,71-80,31-40,MO,Purchase,Second Home,2-4 Unit,2018-01,360,2.68
+L000199,445000,780+,81-90,>50,GA,Cash-Out Refinance,Primary,Single Family,2018-01,360,3.41
+L000365,230000,620-659,91-95,>50,MD,Refinance,Investment,Manufactured,2018-01,360,5.48
+L000362,257000,660-699,91-95,41-50,MO,Refinance,Second Home,Single Family,2018-01,360,4.89
+L000210,380000,<620,91-95,41-50,PA,Refinance,Primary,Condo,2018-01,360,3.03
+L000360,377000,660-699,81-90,31-40,OH,Cash-Out Refinance,Investment,2-4 Unit,2018-01,360,4.35
+L000105,400000,660-699,<=60,41-50,WA,Purchase,Primary,Condo,2018-01,360,5.36
+L000166,417000,660-699,71-80,<=20,WA,Cash-Out Refinance,Second Home,Single Family,2018-01,360,3.05
+L000394,388000,<620,91-95,>50,MO,Refinance,Second Home,Single Family,2018-01,360,5.71
+L000399,212000,<620,<=60,>50,NJ,Refinance,Investment,Single Family,2018-02,360,4.41
+L000159,305000,<620,91-95,21-30,MO,Cash-Out Refinance,Primary,Condo,2018-02,360,7.0
+L000164,432000,<620,61-70,21-30,TX,Purchase,Second Home,Single Family,2018-02,360,5.3
+L000295,303000,700-739,<=60,31-40,WI,Purchase,Investment,Single Family,2018-02,360,5.04
+L000163,214000,780+,<=60,<=20,MA,Cash-Out Refinance,Investment,Condo,2018-02,360,5.0
+L000013,386000,740-779,<=60,31-40,OH,Purchase,Investment,2-4 Unit,2018-02,360,3.42
+L000209,186000,780+,<=60,>50,TN,Refinance,Second Home,2-4 Unit,2018-02,360,6.19
+L000043,249000,780+,71-80,41-50,MA,Cash-Out Refinance,Investment,Single Family,2018-02,360,3.4
+L000168,173000,<620,61-70,<=20,OH,Purchase,Investment,Condo,2018-02,360,6.28
+L000421,339000,<620,71-80,41-50,IN,Refinance,Primary,Single Family,2018-02,360,4.69
+L000053,281000,620-659,91-95,<=20,IL,Refinance,Second Home,Condo,2018-02,360,6.76
+L000010,405000,<620,>95,41-50,IN,Purchase,Second Home,Manufactured,2018-02,360,2.83
+L000219,272000,660-699,81-90,31-40,MI,Refinance,Second Home,2-4 Unit,2018-03,360,5.55
+L000160,295000,700-739,81-90,21-30,OH,Cash-Out Refinance,Second Home,2-4 Unit,2018-03,360,3.58
+L000032,175000,620-659,>95,31-40,NC,Purchase,Second Home,Single Family,2018-03,360,4.26
+L000141,403000,700-739,91-95,>50,FL,Cash-Out Refinance,Primary,2-4 Unit,2018-03,360,5.22
+L000186,378000,700-739,<=60,>50,MO,Cash-Out Refinance,Investment,Condo,2018-03,360,5.76
+L000104,379000,620-659,61-70,<=20,AZ,Refinance,Second Home,Single Family,2018-03,360,3.38
+L000007,492000,780+,81-90,31-40,MI,Refinance,Second Home,Condo,2018-03,360,2.78
+L000115,333000,660-699,>95,21-30,MA,Cash-Out Refinance,Investment,Condo,2018-04,360,4.31
+L000038,264000,660-699,<=60,31-40,VA,Refinance,Second Home,Manufactured,2018-04,360,2.61
+L000052,321000,780+,91-95,<=20,NY,Purchase,Primary,Single Family,2018-04,360,2.74
+L000396,420000,780+,81-90,21-30,MA,Cash-Out Refinance,Second Home,Condo,2018-04,360,4.83
+L000265,379000,620-659,81-90,<=20,GA,Refinance,Investment,2-4 Unit,2018-04,360,5.51
+L000056,387000,700-739,>95,>50,NC,Purchase,Investment,Condo,2018-04,360,3.93
+L000499,397000,740-779,<=60,<=20,OH,Cash-Out Refinance,Second Home,Single Family,2018-04,360,5.03
+L000475,331000,620-659,71-80,21-30,VA,Cash-Out Refinance,Investment,Single Family,2018-05,360,6.5
+L000490,484000,<620,81-90,>50,TX,Purchase,Second Home,Single Family,2018-05,360,4.14
+L000340,424000,780+,61-70,41-50,FL,Refinance,Investment,2-4 Unit,2018-05,360,5.89
+L000088,311000,<620,81-90,31-40,NC,Refinance,Investment,Condo,2018-05,360,6.74
+L000106,355000,740-779,91-95,21-30,MA,Cash-Out Refinance,Second Home,Condo,2018-05,360,4.21
+L000131,456000,780+,71-80,41-50,WI,Refinance,Second Home,Manufactured,2018-06,360,5.82
+L000273,242000,740-779,>95,<=20,TX,Refinance,Primary,Manufactured,2018-06,360,5.64
+L000342,405000,660-699,<=60,31-40,WI,Purchase,Second Home,Condo,2018-06,360,3.81
+L000054,189000,780+,81-90,21-30,TN,Cash-Out Refinance,Second Home,Manufactured,2018-06,360,3.7
+L000091,153000,<620,71-80,>50,TX,Cash-Out Refinance,Primary,Single Family,2018-07,360,4.19
+L000243,224000,660-699,91-95,>50,WA,Refinance,Second Home,Condo,2018-07,360,5.02
+L000426,418000,<620,61-70,>50,NJ,Refinance,Primary,2-4 Unit,2018-07,360,5.39
+L000206,255000,620-659,71-80,>50,IN,Cash-Out Refinance,Investment,Condo,2018-07,360,4.5
+L000034,465000,620-659,91-95,21-30,MA,Cash-Out Refinance,Primary,Single Family,2018-07,360,2.67
+L000309,497000,660-699,61-70,21-30,MD,Cash-Out Refinance,Investment,Manufactured,2018-07,360,6.34
+L000481,177000,780+,91-95,>50,MD,Refinance,Second Home,Single Family,2018-07,360,4.96
+L000315,397000,620-659,61-70,<=20,AZ,Cash-Out Refinance,Investment,Manufactured,2018-08,360,4.89
+L000423,320000,620-659,81-90,>50,OH,Refinance,Investment,Manufactured,2018-08,360,2.56
+L000337,171000,740-779,81-90,21-30,NC,Cash-Out Refinance,Second Home,Manufactured,2018-08,360,5.6
+L000081,497000,740-779,91-95,31-40,VA,Refinance,Investment,Single Family,2018-08,360,6.31
+L000084,304000,780+,91-95,41-50,IN,Purchase,Second Home,2-4 Unit,2018-08,360,6.97
+L000494,294000,620-659,<=60,>50,MI,Refinance,Second Home,Manufactured,2018-08,360,2.71
+L000254,405000,700-739,91-95,41-50,OH,Cash-Out Refinance,Primary,Single Family,2018-08,360,6.51
+L000047,378000,700-739,<=60,41-50,GA,Refinance,Primary,Condo,2018-08,360,5.92
+L000242,279000,700-739,91-95,>50,GA,Refinance,Investment,2-4 Unit,2018-08,360,5.26
+L000079,192000,620-659,>95,>50,MA,Cash-Out Refinance,Investment,Single Family,2018-09,360,4.37
+L000041,365000,780+,61-70,>50,MA,Purchase,Second Home,Single Family,2018-09,360,5.06
+L000358,162000,620-659,>95,41-50,NC,Refinance,Investment,2-4 Unit,2018-09,360,3.71
+L000478,498000,780+,61-70,31-40,NC,Cash-Out Refinance,Investment,Single Family,2018-09,360,3.87
+L000145,219000,700-739,61-70,>50,NY,Cash-Out Refinance,Primary,Single Family,2018-09,360,5.83
+L000109,288000,620-659,81-90,31-40,OH,Refinance,Investment,Single Family,2018-09,360,3.79
+L000298,292000,740-779,81-90,>50,IN,Refinance,Primary,Manufactured,2018-09,360,5.28
+L000456,424000,<620,81-90,31-40,VA,Refinance,Second Home,Single Family,2018-09,360,6.95
+L000486,409000,700-739,91-95,41-50,FL,Purchase,Investment,2-4 Unit,2018-09,360,6.79
+L000216,173000,660-699,91-95,<=20,CA,Refinance,Second Home,Condo,2018-09,360,5.14
+L000387,192000,620-659,<=60,31-40,NJ,Purchase,Investment,Condo,2018-10,360,4.21
+L000391,335000,740-779,<=60,21-30,MA,Cash-Out Refinance,Primary,Condo,2018-10,360,5.28
+L000433,265000,620-659,71-80,21-30,VA,Purchase,Primary,2-4 Unit,2018-10,360,3.43
+L000083,238000,660-699,81-90,41-50,OH,Refinance,Investment,Single Family,2018-11,360,4.96
+L000182,346000,740-779,81-90,41-50,OH,Refinance,Investment,2-4 Unit,2018-11,360,4.68
+L000200,309000,700-739,91-95,31-40,AZ,Cash-Out Refinance,Investment,Single Family,2018-11,360,5.0
+L000410,288000,700-739,91-95,<=20,IL,Purchase,Investment,Manufactured,2018-12,360,6.37
+L000442,172000,620-659,91-95,31-40,NJ,Purchase,Second Home,Single Family,2018-12,360,6.83
+L000402,172000,700-739,>95,21-30,TN,Refinance,Second Home,Manufactured,2018-12,360,5.13
+L000419,399000,620-659,61-70,<=20,MI,Purchase,Primary,Condo,2018-12,360,4.04
+L000157,211000,780+,91-95,<=20,NJ,Purchase,Second Home,Manufactured,2018-12,360,3.38
+L000453,450000,620-659,71-80,>50,MD,Refinance,Primary,Condo,2018-12,360,6.85
+L000359,155000,<620,81-90,21-30,CA,Cash-Out Refinance,Primary,Condo,2018-12,360,5.19
+L000462,385000,700-739,71-80,<=20,MO,Refinance,Primary,Manufactured,2018-12,360,2.81
+L000212,188000,660-699,<=60,21-30,FL,Purchase,Primary,Single Family,2018-12,360,3.09
+L000093,338000,<620,91-95,<=20,NC,Cash-Out Refinance,Investment,Manufactured,2018-12,360,6.8
+L000449,217000,700-739,71-80,41-50,WA,Cash-Out Refinance,Investment,Single Family,2019-01,360,4.02
+L000444,435000,<620,71-80,21-30,CA,Cash-Out Refinance,Second Home,Single Family,2019-01,360,3.91
+L000483,287000,700-739,71-80,<=20,TN,Purchase,Investment,Single Family,2019-01,360,6.79
+L000348,329000,620-659,71-80,>50,IL,Refinance,Primary,2-4 Unit,2019-01,360,5.73
+L000307,177000,620-659,<=60,31-40,IN,Cash-Out Refinance,Second Home,2-4 Unit,2019-01,360,3.28
+L000418,483000,620-659,>95,31-40,TN,Refinance,Second Home,Single Family,2019-01,360,6.33
+L000121,230000,660-699,81-90,<=20,NJ,Purchase,Second Home,Condo,2019-01,360,6.69
+L000474,486000,<620,<=60,21-30,MO,Purchase,Primary,Single Family,2019-02,360,4.69
+L000063,450000,620-659,81-90,31-40,OH,Cash-Out Refinance,Second Home,Single Family,2019-02,360,6.75
+L000040,411000,740-779,<=60,41-50,TX,Cash-Out Refinance,Investment,Manufactured,2019-02,360,5.51
+L000238,444000,<620,81-90,41-50,WA,Refinance,Primary,Single Family,2019-02,360,6.36
+L000317,426000,660-699,61-70,21-30,NY,Purchase,Primary,Single Family,2019-02,360,4.59
+L000107,237000,700-739,<=60,41-50,TN,Purchase,Investment,Manufactured,2019-02,360,2.96
+L000334,152000,620-659,<=60,>50,MD,Purchase,Second Home,Manufactured,2019-03,360,6.44
+L000318,303000,780+,81-90,21-30,MI,Refinance,Primary,2-4 Unit,2019-03,360,3.66
+L000110,499000,780+,91-95,>50,GA,Purchase,Second Home,Condo,2019-03,360,3.8
+L000024,400000,700-739,91-95,31-40,FL,Refinance,Investment,Manufactured,2019-03,360,4.14
+L000065,492000,660-699,<=60,31-40,NJ,Refinance,Investment,Single Family,2019-03,360,3.57
+L000002,342000,660-699,81-90,21-30,WI,Refinance,Investment,2-4 Unit,2019-03,360,3.88
+L000075,293000,620-659,71-80,<=20,CA,Cash-Out Refinance,Second Home,Single Family,2019-03,360,4.08
+L000117,421000,620-659,71-80,31-40,GA,Cash-Out Refinance,Second Home,Manufactured,2019-03,360,3.82
+L000397,447000,620-659,>95,>50,WI,Refinance,Investment,2-4 Unit,2019-04,360,6.18
+L000460,264000,740-779,61-70,31-40,TN,Purchase,Primary,Manufactured,2019-04,360,4.6
+L000374,319000,700-739,91-95,>50,WA,Cash-Out Refinance,Second Home,Single Family,2019-04,360,2.53
+L000347,192000,660-699,>95,31-40,IL,Refinance,Primary,Condo,2019-04,360,4.05
+L000207,491000,740-779,<=60,>50,PA,Purchase,Second Home,2-4 Unit,2019-04,360,6.58
+L000467,276000,620-659,61-70,21-30,PA,Purchase,Primary,Condo,2019-04,360,5.26
+L000382,161000,620-659,71-80,21-30,TN,Purchase,Primary,Condo,2019-04,360,3.88
+L000316,221000,620-659,81-90,31-40,AZ,Purchase,Second Home,Single Family,2019-04,360,4.82
+L000183,166000,700-739,61-70,21-30,TN,Refinance,Investment,Single Family,2019-04,360,5.86
+L000366,406000,780+,<=60,41-50,TN,Purchase,Investment,Condo,2019-04,360,6.77
+L000351,482000,700-739,91-95,31-40,MI,Purchase,Second Home,Manufactured,2019-05,360,5.49
+L000480,306000,<620,>95,41-50,TN,Cash-Out Refinance,Investment,Condo,2019-05,360,6.58
+L000177,378000,660-699,81-90,>50,MI,Purchase,Second Home,Condo,2019-05,360,4.12
+L000245,489000,<620,81-90,<=20,CA,Cash-Out Refinance,Investment,Manufactured,2019-05,360,4.23
+L000447,480000,700-739,>95,21-30,VA,Purchase,Primary,2-4 Unit,2019-05,360,6.66
+L000496,208000,700-739,<=60,41-50,MA,Purchase,Second Home,Condo,2019-05,360,5.21
+L000296,494000,700-739,61-70,31-40,TX,Refinance,Second Home,Condo,2019-05,360,4.28
+L000269,307000,<620,<=60,>50,WI,Refinance,Primary,Condo,2019-05,360,4.26
+L000229,421000,740-779,91-95,21-30,IN,Purchase,Second Home,Manufactured,2019-06,360,5.95
+L000283,225000,740-779,>95,21-30,FL,Cash-Out Refinance,Primary,2-4 Unit,2019-06,360,6.68
+L000037,183000,780+,81-90,41-50,MO,Refinance,Primary,Manufactured,2019-06,360,3.93
+L000477,369000,620-659,81-90,41-50,WI,Purchase,Second Home,Single Family,2019-06,360,3.95
+L000059,194000,620-659,>95,31-40,PA,Cash-Out Refinance,Second Home,Manufactured,2019-06,360,6.72
+L000350,332000,780+,81-90,<=20,MO,Purchase,Primary,Single Family,2019-07,360,3.85
+L000192,201000,740-779,<=60,<=20,NJ,Refinance,Second Home,2-4 Unit,2019-07,360,3.49
+L000190,253000,<620,81-90,<=20,NY,Purchase,Second Home,2-4 Unit,2019-07,360,5.26
+L000264,318000,660-699,71-80,41-50,FL,Cash-Out Refinance,Primary,Manufactured,2019-07,360,3.95
+L000217,427000,740-779,91-95,>50,NC,Refinance,Investment,Single Family,2019-07,360,2.59
+L000353,228000,700-739,61-70,41-50,AZ,Refinance,Investment,Manufactured,2019-07,360,5.19
+L000392,310000,780+,91-95,>50,IL,Refinance,Primary,Condo,2019-07,360,4.07
+L000455,401000,<620,71-80,<=20,MA,Refinance,Second Home,Condo,2019-07,360,6.92
+L000451,258000,660-699,71-80,41-50,MD,Purchase,Primary,Single Family,2019-07,360,4.92
+L000167,323000,<620,81-90,21-30,AZ,Cash-Out Refinance,Investment,Single Family,2019-07,360,6.88
+L000187,464000,660-699,71-80,31-40,NJ,Purchase,Primary,Manufactured,2019-08,360,3.04
+L000193,345000,<620,>95,41-50,AZ,Purchase,Second Home,Manufactured,2019-08,360,3.5
+L000241,347000,660-699,61-70,>50,WI,Purchase,Primary,Condo,2019-08,360,6.02
+L000220,383000,<620,61-70,<=20,CA,Cash-Out Refinance,Second Home,Manufactured,2019-08,360,2.71
+L000313,291000,660-699,<=60,41-50,FL,Refinance,Investment,2-4 Unit,2019-08,360,4.72
+L000257,303000,700-739,71-80,<=20,CA,Purchase,Second Home,Manufactured,2019-09,360,6.88
+L000016,404000,660-699,>95,21-30,MD,Purchase,Second Home,Manufactured,2019-09,360,6.55
+L000035,289000,620-659,91-95,31-40,WA,Purchase,Investment,2-4 Unit,2019-09,360,6.07
+L000239,274000,740-779,<=60,>50,MD,Refinance,Primary,2-4 Unit,2019-09,360,6.56
+L000005,187000,<620,>95,<=20,WI,Purchase,Primary,Single Family,2019-09,360,5.78
+L000431,484000,700-739,71-80,<=20,TN,Purchase,Investment,Manufactured,2019-09,360,5.93
+L000019,370000,700-739,81-90,21-30,VA,Purchase,Primary,Single Family,2019-10,360,4.02
+L000249,167000,700-739,<=60,21-30,IN,Refinance,Investment,Manufactured,2019-10,360,6.97
+L000327,470000,780+,>95,>50,WA,Cash-Out Refinance,Investment,Single Family,2019-10,360,6.74
+L000371,463000,780+,71-80,<=20,TX,Refinance,Investment,Single Family,2019-10,360,4.09
+L000008,216000,620-659,<=60,21-30,IL,Purchase,Primary,Condo,2019-10,360,4.11
+L000439,315000,620-659,91-95,41-50,PA,Purchase,Investment,Single Family,2019-11,360,5.58
+L000357,239000,700-739,91-95,21-30,WA,Purchase,Primary,2-4 Unit,2019-11,360,4.89
+L000116,341000,700-739,91-95,>50,TX,Refinance,Second Home,Condo,2019-11,360,5.88
+L000292,199000,740-779,61-70,21-30,TN,Refinance,Second Home,Manufactured,2019-11,360,4.4
+L000097,467000,740-779,>95,>50,WI,Refinance,Primary,Manufactured,2019-11,360,5.56
+L000203,168000,660-699,>95,21-30,CA,Purchase,Primary,2-4 Unit,2019-11,360,2.95
+L000386,155000,780+,81-90,<=20,IL,Purchase,Second Home,Manufactured,2019-11,360,4.45
+L000445,259000,620-659,81-90,>50,OH,Cash-Out Refinance,Investment,Manufactured,2019-11,360,6.36
+L000466,357000,780+,91-95,41-50,NJ,Cash-Out Refinance,Investment,2-4 Unit,2019-11,360,5.63
+L000179,459000,<620,>95,21-30,OH,Refinance,Primary,Single Family,2019-12,360,4.85
+L000006,363000,620-659,81-90,<=20,AZ,Refinance,Primary,Manufactured,2019-12,360,6.65
+L000221,195000,780+,>95,>50,AZ,Purchase,Primary,Manufactured,2019-12,360,6.77
+L000306,335000,740-779,61-70,41-50,NY,Purchase,Second Home,2-4 Unit,2019-12,360,5.05
+L000275,485000,700-739,71-80,>50,MO,Purchase,Investment,Manufactured,2019-12,360,6.69
+L000070,425000,620-659,<=60,31-40,IN,Cash-Out Refinance,Primary,Condo,2019-12,360,4.79
+L000434,487000,620-659,81-90,31-40,MO,Cash-Out Refinance,Investment,2-4 Unit,2019-12,360,2.89
+L000289,490000,<620,81-90,>50,MO,Refinance,Second Home,Single Family,2019-12,360,3.09
+L000150,275000,620-659,91-95,<=20,NY,Refinance,Investment,Single Family,2019-12,360,2.91
+L000438,485000,700-739,91-95,<=20,IN,Refinance,Primary,2-4 Unit,2019-12,360,3.51
+L000224,215000,740-779,<=60,31-40,FL,Refinance,Second Home,2-4 Unit,2019-12,360,6.14
+L000401,177000,<620,81-90,21-30,VA,Refinance,Investment,Condo,2019-12,360,4.15
+L000398,336000,780+,<=60,31-40,IN,Cash-Out Refinance,Primary,Condo,2019-12,360,3.33
+L000323,451000,620-659,>95,41-50,VA,Cash-Out Refinance,Investment,Single Family,2020-01,360,6.2
+L000305,440000,660-699,91-95,>50,MD,Purchase,Second Home,Single Family,2020-01,360,6.52
+L000284,498000,620-659,61-70,31-40,GA,Cash-Out Refinance,Investment,Manufactured,2020-01,360,5.65
+L000228,404000,740-779,91-95,41-50,MI,Refinance,Investment,Manufactured,2020-01,360,4.25
+L000463,312000,<620,71-80,21-30,MO,Purchase,Second Home,2-4 Unit,2020-01,360,4.23
+L000303,283000,740-779,>95,41-50,NY,Cash-Out Refinance,Investment,Condo,2020-02,360,2.92
+L000424,357000,660-699,81-90,<=20,TX,Cash-Out Refinance,Primary,Manufactured,2020-02,360,6.36
+L000373,153000,660-699,91-95,31-40,NY,Refinance,Investment,Single Family,2020-02,360,6.19
+L000071,264000,620-659,71-80,31-40,NY,Cash-Out Refinance,Primary,2-4 Unit,2020-02,360,3.45
+L000294,207000,700-739,71-80,21-30,FL,Refinance,Second Home,2-4 Unit,2020-03,360,4.54
+L000256,215000,780+,91-95,>50,MD,Purchase,Second Home,Manufactured,2020-03,360,4.3
+L000108,419000,620-659,61-70,<=20,TX,Refinance,Primary,Single Family,2020-03,360,3.78
+L000488,342000,<620,>95,31-40,TN,Purchase,Primary,Condo,2020-03,360,2.96
+L000144,288000,660-699,<=60,31-40,OH,Refinance,Second Home,2-4 Unit,2020-03,360,3.84
+L000255,322000,660-699,71-80,41-50,MO,Purchase,Investment,Condo,2020-03,360,3.64
+L000139,328000,620-659,71-80,>50,FL,Purchase,Primary,Condo,2020-03,360,4.23
+L000125,159000,780+,71-80,41-50,VA,Refinance,Investment,Condo,2020-04,360,2.98
+L000090,385000,780+,81-90,<=20,NC,Refinance,Investment,Single Family,2020-04,360,4.55
+L000132,367000,700-739,71-80,>50,IN,Cash-Out Refinance,Second Home,Condo,2020-04,360,3.56
+L000259,333000,<620,81-90,31-40,NJ,Cash-Out Refinance,Primary,2-4 Unit,2020-04,360,3.08
+L000458,411000,740-779,>95,31-40,WA,Refinance,Primary,Single Family,2020-04,360,3.96
+L000133,179000,780+,81-90,>50,NY,Purchase,Investment,Single Family,2020-04,360,6.97
+L000417,461000,620-659,<=60,31-40,VA,Refinance,Investment,2-4 Unit,2020-05,360,6.68
+L000377,389000,740-779,<=60,31-40,PA,Cash-Out Refinance,Second Home,2-4 Unit,2020-05,360,6.09
+L000074,205000,<620,<=60,21-30,MO,Cash-Out Refinance,Second Home,Condo,2020-05,360,6.58
+L000491,220000,660-699,71-80,21-30,TN,Cash-Out Refinance,Primary,Condo,2020-05,360,2.63
+L000119,273000,700-739,71-80,31-40,MD,Cash-Out Refinance,Primary,2-4 Unit,2020-05,360,5.95
+L000429,195000,780+,81-90,<=20,MD,Cash-Out Refinance,Primary,Manufactured,2020-05,360,5.4
+L000271,156000,780+,71-80,41-50,MI,Refinance,Investment,Manufactured,2020-06,360,5.22
+L000250,388000,740-779,81-90,41-50,PA,Refinance,Second Home,Single Family,2020-06,360,3.53
+L000135,264000,620-659,71-80,>50,MD,Cash-Out Refinance,Primary,2-4 Unit,2020-06,360,3.6
+L000258,415000,780+,81-90,31-40,MA,Purchase,Investment,Manufactured,2020-06,360,5.75
+L000011,425000,620-659,91-95,<=20,CA,Purchase,Primary,Condo,2020-06,360,6.87
+L000349,238000,660-699,91-95,31-40,NJ,Cash-Out Refinance,Second Home,2-4 Unit,2020-06,360,5.86
+L000446,497000,620-659,61-70,>50,OH,Purchase,Primary,Manufactured,2020-06,360,3.97
+L000204,186000,<620,<=60,41-50,FL,Refinance,Primary,Single Family,2020-07,360,3.95
+L000290,195000,<620,91-95,41-50,IN,Refinance,Primary,Condo,2020-08,360,4.37
+L000280,168000,620-659,>95,<=20,MI,Cash-Out Refinance,Primary,Single Family,2020-08,360,5.24
+L000320,203000,780+,61-70,41-50,MD,Purchase,Primary,Single Family,2020-08,360,5.98
+L000173,211000,780+,81-90,31-40,TX,Cash-Out Refinance,Investment,Manufactured,2020-08,360,6.19
+L000171,438000,<620,91-95,<=20,PA,Refinance,Primary,Manufactured,2020-08,360,4.02
+L000152,261000,700-739,81-90,31-40,MA,Purchase,Primary,Single Family,2020-08,360,4.98
+L000215,246000,620-659,91-95,<=20,IN,Refinance,Investment,Manufactured,2020-08,360,3.75
+L000122,497000,740-779,91-95,>50,CA,Purchase,Primary,Single Family,2020-08,360,6.5
+L000400,188000,660-699,81-90,31-40,TN,Refinance,Second Home,2-4 Unit,2020-08,360,3.72
+L000297,361000,780+,>95,41-50,IL,Purchase,Primary,2-4 Unit,2020-09,360,3.74
+L000196,298000,620-659,91-95,>50,IL,Refinance,Second Home,Single Family,2020-09,360,3.48
+L000017,348000,620-659,<=60,31-40,NJ,Purchase,Second Home,Condo,2020-09,360,3.08
+L000385,297000,620-659,91-95,>50,MI,Purchase,Primary,2-4 Unit,2020-09,360,4.61
+L000246,421000,<620,71-80,>50,TN,Cash-Out Refinance,Second Home,Single Family,2020-09,360,6.7
+L000413,354000,<620,61-70,<=20,WI,Refinance,Second Home,Manufactured,2020-09,360,4.57
+L000237,274000,620-659,71-80,<=20,FL,Cash-Out Refinance,Second Home,Single Family,2020-09,360,2.5
+L000235,153000,740-779,71-80,>50,FL,Refinance,Investment,Manufactured,2020-09,360,2.92
+L000223,265000,<620,61-70,21-30,NJ,Purchase,Primary,2-4 Unit,2020-09,360,4.93
+L000095,260000,700-739,>95,21-30,OH,Refinance,Primary,Single Family,2020-09,360,6.48
+L000281,225000,620-659,81-90,21-30,MI,Purchase,Second Home,2-4 Unit,2020-09,360,4.62
+L000406,237000,660-699,81-90,<=20,MA,Purchase,Primary,Condo,2020-09,360,6.53
+L000405,416000,780+,71-80,<=20,NY,Cash-Out Refinance,Primary,Condo,2020-09,360,3.53
+L000087,196000,740-779,<=60,31-40,FL,Cash-Out Refinance,Second Home,Condo,2020-09,360,5.59
+L000363,434000,700-739,61-70,>50,FL,Cash-Out Refinance,Primary,Condo,2020-10,360,3.64
+L000094,243000,<620,71-80,21-30,GA,Refinance,Primary,2-4 Unit,2020-10,360,3.81
+L000061,434000,780+,71-80,41-50,MO,Refinance,Second Home,Condo,2020-10,360,2.75
+L000389,489000,<620,91-95,21-30,TN,Purchase,Second Home,Manufactured,2020-10,360,4.19
+L000425,199000,620-659,>95,21-30,GA,Cash-Out Refinance,Investment,Single Family,2020-10,360,6.91
+L000232,260000,780+,<=60,21-30,MA,Refinance,Investment,2-4 Unit,2020-11,360,4.11
+L000476,425000,700-739,91-95,21-30,IN,Purchase,Primary,2-4 Unit,2020-11,360,4.1
+L000049,233000,<620,61-70,21-30,IN,Refinance,Investment,Single Family,2020-11,360,5.22
+L000266,422000,660-699,81-90,<=20,AZ,Cash-Out Refinance,Investment,2-4 Unit,2020-11,360,3.9
+L000085,495000,<620,61-70,41-50,NJ,Purchase,Investment,2-4 Unit,2020-11,360,4.74
+L000422,203000,<620,81-90,<=20,OH,Cash-Out Refinance,Investment,2-4 Unit,2020-11,360,4.93
+L000404,266000,<620,91-95,41-50,MO,Purchase,Investment,Single Family,2020-11,360,6.25
+L000086,377000,780+,71-80,<=20,IL,Refinance,Primary,Single Family,2020-11,360,3.51
+L000101,287000,620-659,71-80,31-40,NC,Cash-Out Refinance,Primary,2-4 Unit,2020-11,360,3.03
+L000437,450000,<620,<=60,<=20,CA,Refinance,Second Home,Manufactured,2020-12,360,2.82
+L000432,258000,780+,81-90,<=20,VA,Refinance,Primary,Manufactured,2020-12,360,5.45
+L000430,333000,740-779,61-70,<=20,MD,Refinance,Second Home,Single Family,2020-12,360,6.95
+L000311,411000,660-699,91-95,21-30,TN,Refinance,Second Home,Condo,2020-12,360,2.86
+L000500,332000,620-659,71-80,<=20,FL,Cash-Out Refinance,Second Home,Manufactured,2020-12,360,5.02
+L000050,168000,660-699,>95,>50,MO,Refinance,Second Home,Condo,2020-12,360,5.23
+L000189,484000,780+,>95,<=20,NJ,Cash-Out Refinance,Second Home,Single Family,2020-12,360,4.13
+L000120,311000,780+,81-90,21-30,NC,Cash-Out Refinance,Investment,Condo,2020-12,360,6.36
+L000226,339000,740-779,61-70,21-30,NJ,Cash-Out Refinance,Primary,2-4 Unit,2020-12,360,4.2
+L000099,323000,<620,61-70,21-30,CA,Cash-Out Refinance,Second Home,Condo,2021-01,360,5.85
+L000492,453000,620-659,81-90,<=20,FL,Refinance,Second Home,Manufactured,2021-01,360,4.26
+L000214,487000,740-779,<=60,41-50,IL,Purchase,Primary,Condo,2021-01,360,3.7
+L000274,449000,700-739,<=60,21-30,CA,Purchase,Second Home,Condo,2021-01,360,4.45
+L000147,406000,780+,61-70,21-30,GA,Purchase,Second Home,Manufactured,2021-01,360,4.28
+L000441,199000,780+,71-80,21-30,FL,Cash-Out Refinance,Second Home,Condo,2021-01,360,4.07
+L000251,398000,700-739,<=60,21-30,CA,Cash-Out Refinance,Investment,2-4 Unit,2021-02,360,2.78
+L000493,331000,700-739,81-90,41-50,NC,Refinance,Investment,2-4 Unit,2021-02,360,5.11
+L000012,399000,620-659,>95,31-40,WI,Purchase,Second Home,2-4 Unit,2021-02,360,2.68
+L000178,363000,700-739,81-90,<=20,MO,Purchase,Primary,Single Family,2021-02,360,4.63
+L000227,300000,660-699,>95,31-40,FL,Cash-Out Refinance,Investment,Single Family,2021-02,360,3.97
+L000158,315000,620-659,>95,21-30,AZ,Refinance,Second Home,Condo,2021-03,360,4.44
+L000469,495000,700-739,81-90,<=20,NY,Cash-Out Refinance,Primary,Single Family,2021-03,360,4.78
+L000036,423000,<620,>95,31-40,PA,Cash-Out Refinance,Investment,Condo,2021-03,360,2.85
+L000473,448000,740-779,<=60,41-50,MA,Cash-Out Refinance,Primary,Manufactured,2021-03,360,3.1
+L000198,498000,700-739,61-70,<=20,MI,Cash-Out Refinance,Second Home,Manufactured,2021-03,360,4.81
+L000301,425000,740-779,>95,31-40,VA,Purchase,Second Home,Single Family,2021-03,360,6.62
+L000384,364000,700-739,61-70,31-40,NY,Purchase,Primary,Manufactured,2021-03,360,3.39
+L000345,393000,660-699,<=60,31-40,PA,Refinance,Second Home,2-4 Unit,2021-04,360,5.36
+L000414,307000,700-739,71-80,<=20,NC,Purchase,Investment,Single Family,2021-04,360,6.13
+L000484,416000,780+,71-80,31-40,PA,Purchase,Second Home,Manufactured,2021-04,360,6.24
+L000068,246000,620-659,>95,41-50,NC,Purchase,Second Home,Condo,2021-04,360,4.02
+L000197,452000,780+,71-80,<=20,IN,Refinance,Primary,Manufactured,2021-04,360,3.33
+L000089,297000,780+,71-80,31-40,MD,Refinance,Investment,Manufactured,2021-05,360,6.01
+L000234,435000,780+,81-90,>50,CA,Cash-Out Refinance,Second Home,Single Family,2021-05,360,6.81
+L000073,228000,740-779,>95,21-30,WA,Purchase,Second Home,Condo,2021-05,360,4.98
+L000205,393000,740-779,71-80,21-30,PA,Cash-Out Refinance,Investment,Single Family,2021-06,360,4.09
+L000111,389000,700-739,91-95,41-50,NY,Purchase,Primary,2-4 Unit,2021-06,360,4.13
+L000332,329000,700-739,91-95,21-30,GA,Refinance,Investment,Single Family,2021-06,360,2.65
+L000022,405000,<620,<=60,>50,VA,Purchase,Investment,2-4 Unit,2021-06,360,3.2
+L000127,358000,660-699,81-90,<=20,TN,Cash-Out Refinance,Primary,Single Family,2021-06,360,5.63
+L000471,150000,<620,<=60,<=20,CA,Refinance,Investment,Condo,2021-06,360,2.76
+L000302,384000,700-739,>95,<=20,PA,Cash-Out Refinance,Second Home,2-4 Unit,2021-06,360,5.42
+L000485,377000,620-659,71-80,>50,OH,Cash-Out Refinance,Investment,Single Family,2021-06,360,6.74
+L000415,156000,<620,81-90,31-40,WA,Refinance,Investment,Condo,2021-07,360,5.46
+L000409,166000,700-739,<=60,31-40,NC,Purchase,Primary,2-4 Unit,2021-07,360,2.75
+L000299,387000,780+,61-70,21-30,VA,Refinance,Primary,Single Family,2021-07,360,5.82
+L000118,364000,740-779,71-80,41-50,NJ,Purchase,Primary,Manufactured,2021-07,360,2.55
+L000060,155000,700-739,81-90,<=20,IN,Cash-Out Refinance,Second Home,2-4 Unit,2021-08,360,6.56
+L000170,173000,700-739,91-95,21-30,VA,Refinance,Investment,Manufactured,2021-08,360,6.0
+L000416,387000,780+,91-95,31-40,NJ,Refinance,Investment,Manufactured,2021-08,360,3.35
+L000046,490000,<620,91-95,41-50,PA,Purchase,Primary,Condo,2021-08,360,4.6
+L000134,152000,620-659,>95,21-30,MD,Cash-Out Refinance,Investment,Manufactured,2021-08,360,4.52
+L000270,455000,700-739,91-95,>50,OH,Purchase,Primary,Manufactured,2021-08,360,6.96
+L000149,321000,620-659,91-95,21-30,NJ,Refinance,Investment,Single Family,2021-08,360,6.79
+L000100,210000,620-659,>95,<=20,AZ,Refinance,Investment,Single Family,2021-08,360,4.13
+L000128,343000,<620,91-95,41-50,AZ,Cash-Out Refinance,Second Home,Manufactured,2021-09,360,2.64
+L000312,355000,<620,61-70,21-30,WI,Refinance,Primary,Condo,2021-09,360,6.58
+L000076,225000,700-739,>95,41-50,GA,Purchase,Investment,Condo,2021-09,360,4.53
+L000498,267000,700-739,>95,21-30,TN,Purchase,Primary,Single Family,2021-09,360,2.97
+L000420,412000,660-699,>95,41-50,NY,Purchase,Primary,Manufactured,2021-10,360,6.38
+L000276,231000,700-739,>95,21-30,WA,Cash-Out Refinance,Primary,2-4 Unit,2021-10,360,5.83
+L000482,399000,<620,>95,>50,TN,Cash-Out Refinance,Primary,Manufactured,2021-10,360,6.33
+L000272,403000,620-659,<=60,41-50,FL,Cash-Out Refinance,Primary,Single Family,2021-10,360,6.46
+L000288,198000,620-659,>95,21-30,MD,Cash-Out Refinance,Investment,Condo,2021-10,360,3.54
+L000103,411000,660-699,<=60,21-30,PA,Purchase,Second Home,2-4 Unit,2021-11,360,6.35
+L000343,168000,660-699,81-90,41-50,AZ,Purchase,Primary,Manufactured,2021-11,360,5.05
+L000379,156000,<620,>95,41-50,MO,Refinance,Primary,Single Family,2021-11,360,6.74
+L000027,398000,740-779,<=60,31-40,CA,Refinance,Primary,Single Family,2021-11,360,3.87
+L000291,438000,780+,71-80,21-30,MD,Purchase,Investment,Condo,2021-11,360,5.1
+L000048,375000,<620,91-95,<=20,MO,Cash-Out Refinance,Second Home,Condo,2021-11,360,5.47
+L000064,269000,700-739,61-70,21-30,NY,Purchase,Second Home,Single Family,2021-12,360,6.3
+L000383,367000,<620,61-70,31-40,TX,Refinance,Investment,Single Family,2021-12,360,4.29
+L000096,406000,660-699,<=60,41-50,FL,Purchase,Second Home,Condo,2021-12,360,3.28
+L000218,190000,740-779,61-70,>50,PA,Refinance,Investment,Manufactured,2021-12,360,6.62
+L000240,218000,780+,91-95,<=20,MD,Purchase,Primary,2-4 Unit,2021-12,360,3.66
+L000364,218000,740-779,91-95,<=20,TN,Cash-Out Refinance,Primary,Single Family,2021-12,360,4.04
+L000247,378000,660-699,81-90,31-40,MD,Cash-Out Refinance,Second Home,Manufactured,2021-12,360,3.4
+L000300,435000,740-779,>95,<=20,FL,Purchase,Investment,Single Family,2021-12,360,3.66
+L000263,382000,<620,<=60,>50,GA,Purchase,Investment,Manufactured,2021-12,360,3.3
+L000211,403000,740-779,71-80,21-30,PA,Cash-Out Refinance,Second Home,Manufactured,2021-12,360,6.26
+L000020,382000,700-739,61-70,21-30,NJ,Purchase,Second Home,Single Family,2022-01,360,4.72
+L000330,403000,740-779,81-90,<=20,FL,Refinance,Investment,Condo,2022-01,360,4.93
+L000268,314000,<620,91-95,21-30,NY,Cash-Out Refinance,Investment,Single Family,2022-01,360,4.29
+L000452,466000,<620,81-90,21-30,MD,Purchase,Primary,Single Family,2022-01,360,6.62
+L000436,468000,700-739,<=60,31-40,PA,Cash-Out Refinance,Primary,Manufactured,2022-01,360,2.7
+L000487,490000,620-659,71-80,31-40,AZ,Purchase,Second Home,2-4 Unit,2022-02,360,4.14
+L000202,461000,780+,<=60,31-40,WI,Cash-Out Refinance,Investment,Condo,2022-02,360,4.55
+L000403,443000,<620,71-80,<=20,MI,Refinance,Second Home,Single Family,2022-02,360,3.27
+L000051,286000,660-699,61-70,41-50,VA,Cash-Out Refinance,Second Home,Single Family,2022-02,360,2.54
+L000304,224000,740-779,>95,>50,GA,Purchase,Primary,Single Family,2022-02,360,6.87
+L000375,230000,620-659,71-80,21-30,NJ,Refinance,Second Home,2-4 Unit,2022-03,360,5.05
+L000112,152000,700-739,81-90,>50,OH,Purchase,Second Home,Single Family,2022-03,360,5.25
+L000148,298000,780+,71-80,31-40,NJ,Refinance,Second Home,Condo,2022-03,360,6.98
+L000408,490000,780+,81-90,<=20,MD,Cash-Out Refinance,Second Home,Manufactured,2022-03,360,4.19
+L000029,298000,700-739,91-95,21-30,MD,Purchase,Second Home,Condo,2022-03,360,5.43
+L000033,416000,740-779,<=60,41-50,NC,Refinance,Second Home,2-4 Unit,2022-03,360,4.36
+L000252,479000,740-779,91-95,41-50,IN,Cash-Out Refinance,Second Home,Condo,2022-03,360,6.08
+L000322,226000,700-739,>95,21-30,FL,Purchase,Primary,Single Family,2022-03,360,5.54
+L000001,259000,780+,61-70,31-40,GA,Cash-Out Refinance,Second Home,Condo,2022-04,360,3.98
+L000331,158000,700-739,<=60,21-30,CA,Purchase,Investment,Single Family,2022-04,360,4.39
+L000114,439000,660-699,71-80,>50,WA,Purchase,Primary,Condo,2022-04,360,3.74
+L000390,331000,<620,81-90,>50,TX,Cash-Out Refinance,Second Home,2-4 Unit,2022-04,360,6.05
+L000195,413000,660-699,91-95,31-40,MA,Refinance,Primary,Single Family,2022-04,360,6.47
+L000464,172000,700-739,71-80,41-50,NC,Cash-Out Refinance,Primary,2-4 Unit,2022-04,360,3.56
+L000346,359000,<620,71-80,31-40,AZ,Purchase,Second Home,2-4 Unit,2022-04,360,4.68
+L000153,227000,700-739,81-90,21-30,PA,Purchase,Investment,Condo,2022-04,360,6.18
+L000459,210000,620-659,<=60,31-40,GA,Purchase,Second Home,Single Family,2022-04,360,5.37
+L000156,348000,740-779,91-95,31-40,FL,Purchase,Second Home,Single Family,2022-04,360,2.85
+L000277,467000,620-659,71-80,41-50,MA,Cash-Out Refinance,Primary,Condo,2022-05,360,3.74
+L000338,168000,740-779,>95,>50,OH,Purchase,Investment,Single Family,2022-05,360,4.87
+L000009,358000,<620,71-80,>50,AZ,Refinance,Second Home,2-4 Unit,2022-05,360,5.91
+L000069,272000,660-699,<=60,31-40,MD,Refinance,Primary,2-4 Unit,2022-05,360,4.89
+L000169,222000,<620,71-80,41-50,IL,Refinance,Primary,Single Family,2022-05,360,5.88
+L000470,154000,660-699,61-70,41-50,IL,Refinance,Primary,Manufactured,2022-05,360,6.32
+L000042,291000,660-699,<=60,<=20,NJ,Refinance,Investment,Condo,2022-05,360,6.92
+L000465,420000,<620,81-90,31-40,NY,Cash-Out Refinance,Primary,Manufactured,2022-05,360,2.84
+L000055,180000,780+,91-95,31-40,WI,Refinance,Primary,Single Family,2022-06,360,5.47
+L000057,360000,740-779,>95,41-50,IN,Refinance,Second Home,Single Family,2022-06,360,4.72
+L000222,249000,740-779,91-95,41-50,VA,Cash-Out Refinance,Primary,Single Family,2022-06,360,4.67
+L000253,159000,780+,81-90,41-50,IN,Refinance,Second Home,Condo,2022-06,360,3.92
+L000335,450000,700-739,>95,>50,WA,Cash-Out Refinance,Investment,Single Family,2022-06,360,5.41
+L000165,468000,<620,>95,21-30,CA,Refinance,Primary,Manufactured,2022-06,360,3.48
+L000285,396000,620-659,71-80,21-30,GA,Refinance,Second Home,2-4 Unit,2022-06,360,6.99
+L000231,496000,780+,<=60,21-30,AZ,Purchase,Second Home,Condo,2022-06,360,4.16
+L000443,248000,780+,<=60,21-30,MO,Purchase,Investment,Single Family,2022-07,360,5.3
+L000355,447000,740-779,>95,21-30,FL,Purchase,Second Home,Manufactured,2022-07,360,2.96
+L000175,224000,700-739,<=60,21-30,NC,Purchase,Investment,Single Family,2022-07,360,4.04
+L000344,313000,660-699,<=60,>50,MD,Purchase,Second Home,Single Family,2022-07,360,2.53
+L000030,468000,740-779,>95,21-30,CA,Cash-Out Refinance,Second Home,Condo,2022-07,360,3.38
+L000176,168000,620-659,>95,>50,MI,Cash-Out Refinance,Primary,Manufactured,2022-08,360,4.81
+L000161,186000,740-779,81-90,<=20,OH,Cash-Out Refinance,Primary,Manufactured,2022-08,360,3.86
+L000468,418000,660-699,61-70,<=20,NC,Refinance,Second Home,Condo,2022-09,360,3.3
+L000130,373000,700-739,81-90,41-50,MD,Refinance,Investment,2-4 Unit,2022-09,360,5.56
+L000201,330000,<620,61-70,<=20,TN,Refinance,Primary,Condo,2022-09,360,5.21
+L000376,193000,700-739,71-80,41-50,MI,Purchase,Primary,Single Family,2022-09,360,6.51
+L000310,437000,660-699,>95,<=20,TN,Cash-Out Refinance,Second Home,2-4 Unit,2022-09,360,2.76
+L000329,164000,700-739,<=60,41-50,NJ,Refinance,Investment,Manufactured,2022-10,360,2.75
+L000428,484000,740-779,81-90,21-30,MA,Cash-Out Refinance,Investment,Manufactured,2022-10,360,3.37
+L000393,175000,660-699,91-95,41-50,NY,Refinance,Second Home,2-4 Unit,2022-10,360,5.63
+L000155,183000,700-739,71-80,>50,VA,Cash-Out Refinance,Primary,2-4 Unit,2022-10,360,4.47
+L000018,311000,<620,<=60,21-30,MD,Purchase,Second Home,2-4 Unit,2022-10,360,3.71
+L000328,348000,620-659,>95,>50,MI,Refinance,Primary,Single Family,2022-10,360,5.23
+L000286,221000,<620,81-90,>50,NY,Purchase,Second Home,Manufactured,2022-10,360,3.56
+L000472,489000,780+,>95,21-30,AZ,Cash-Out Refinance,Investment,2-4 Unit,2022-10,360,3.42
+L000479,325000,620-659,>95,31-40,NY,Refinance,Second Home,Condo,2022-10,360,4.08
+L000361,395000,700-739,61-70,>50,FL,Cash-Out Refinance,Investment,Manufactured,2022-10,360,5.43
+L000354,480000,780+,<=60,<=20,NY,Refinance,Investment,Manufactured,2022-10,360,3.05
+L000324,473000,740-779,81-90,21-30,NY,Cash-Out Refinance,Primary,2-4 Unit,2022-10,360,5.99
+L000450,359000,660-699,>95,31-40,FL,Refinance,Investment,2-4 Unit,2022-11,360,6.18
+L000188,197000,780+,71-80,>50,GA,Refinance,Second Home,Single Family,2022-11,360,4.44
+L000248,248000,740-779,91-95,>50,MA,Refinance,Second Home,Single Family,2022-11,360,4.03
+L000184,354000,740-779,81-90,>50,TN,Cash-Out Refinance,Primary,Condo,2022-11,360,3.22
+L000021,430000,780+,81-90,21-30,WI,Refinance,Investment,Single Family,2022-11,360,4.21
+L000162,453000,620-659,61-70,<=20,NC,Cash-Out Refinance,Second Home,Single Family,2022-11,360,3.89
+L000124,245000,740-779,81-90,<=20,TN,Purchase,Primary,2-4 Unit,2022-11,360,5.32
+L000151,361000,740-779,61-70,31-40,NJ,Purchase,Second Home,Single Family,2022-11,360,6.48
+L000336,292000,700-739,61-70,>50,GA,Cash-Out Refinance,Second Home,Condo,2022-12,360,5.37
+L000308,383000,780+,91-95,21-30,TN,Purchase,Primary,Condo,2022-12,360,5.61
+L000339,313000,<620,91-95,41-50,IL,Purchase,Second Home,Manufactured,2022-12,360,5.1
+L000208,160000,740-779,61-70,>50,MO,Refinance,Primary,Condo,2022-12,360,6.21
+L000039,324000,660-699,61-70,41-50,IL,Cash-Out Refinance,Primary,Single Family,2022-12,360,5.14
+L000072,366000,620-659,61-70,<=20,GA,Cash-Out Refinance,Second Home,Single Family,2022-12,360,3.25
+L000044,187000,660-699,91-95,31-40,GA,Refinance,Primary,Manufactured,2022-12,360,3.51
+L000278,362000,740-779,61-70,41-50,TN,Cash-Out Refinance,Primary,Condo,2022-12,360,5.71
+L000015,207000,740-779,71-80,21-30,MO,Purchase,Primary,Manufactured,2022-12,360,4.24
+L000023,434000,620-659,91-95,21-30,MO,Cash-Out Refinance,Primary,Single Family,2022-12,360,6.95
+L000454,450000,<620,91-95,21-30,MI,Purchase,Second Home,Single Family,2023-01,360,3.23
+L000233,454000,660-699,61-70,>50,IN,Cash-Out Refinance,Second Home,Single Family,2023-01,360,5.12
+L000262,453000,660-699,61-70,21-30,NJ,Cash-Out Refinance,Second Home,Manufactured,2023-01,360,6.35
+L000004,175000,<620,91-95,31-40,WI,Cash-Out Refinance,Primary,Single Family,2023-01,360,3.66
+L000367,404000,700-739,>95,<=20,VA,Refinance,Second Home,Manufactured,2023-01,360,4.61
+L000407,500000,780+,61-70,41-50,MD,Refinance,Investment,Condo,2023-01,360,4.86
+L000154,222000,780+,91-95,31-40,VA,Refinance,Investment,Single Family,2023-02,360,6.62
+L000146,217000,<620,81-90,>50,WI,Refinance,Second Home,Single Family,2023-02,360,3.93
+L000028,408000,780+,<=60,31-40,PA,Cash-Out Refinance,Primary,Manufactured,2023-02,360,6.87
+L000098,484000,700-739,81-90,<=20,MI,Purchase,Primary,2-4 Unit,2023-02,360,4.44
+L000380,442000,740-779,<=60,21-30,NC,Purchase,Primary,Condo,2023-02,360,5.65
+L000026,334000,740-779,71-80,<=20,MA,Refinance,Second Home,Condo,2023-02,360,6.83
+L000448,330000,620-659,<=60,31-40,NJ,Purchase,Second Home,Manufactured,2023-02,360,3.55
+L000025,319000,780+,61-70,>50,TX,Refinance,Primary,Single Family,2023-02,360,6.56
+L000137,222000,740-779,>95,31-40,MA,Purchase,Second Home,Single Family,2023-02,360,2.53
+L000136,332000,<620,>95,21-30,GA,Refinance,Second Home,Manufactured,2023-02,360,4.52
+L000440,160000,700-739,81-90,31-40,TN,Purchase,Investment,2-4 Unit,2023-02,360,2.6
+L000062,386000,780+,81-90,41-50,MA,Cash-Out Refinance,Primary,2-4 Unit,2023-02,360,5.19
+L000140,399000,740-779,71-80,31-40,MI,Cash-Out Refinance,Primary,Condo,2023-02,360,3.43
+L000356,226000,<620,>95,>50,FL,Refinance,Primary,Manufactured,2023-02,360,6.3
+L000067,413000,660-699,71-80,41-50,IN,Refinance,Primary,Single Family,2023-02,360,5.67
+L000129,257000,780+,<=60,>50,CA,Cash-Out Refinance,Second Home,Condo,2023-02,360,6.3
+L000326,500000,660-699,>95,>50,TN,Refinance,Second Home,Manufactured,2023-02,360,5.22
+L000352,475000,620-659,61-70,21-30,MO,Refinance,Second Home,Single Family,2023-03,360,2.81
+L000058,258000,660-699,<=60,>50,MO,Refinance,Investment,2-4 Unit,2023-03,360,6.36
+L000325,169000,740-779,>95,<=20,CA,Refinance,Primary,2-4 Unit,2023-03,360,5.44
+L000369,227000,620-659,81-90,>50,MA,Cash-Out Refinance,Primary,Condo,2023-03,360,5.08
+L000113,153000,<620,61-70,>50,FL,Cash-Out Refinance,Investment,Manufactured,2023-03,360,4.64
+L000321,406000,740-779,91-95,>50,OH,Refinance,Investment,Manufactured,2023-03,360,4.62
+L000082,234000,620-659,<=60,41-50,MD,Purchase,Second Home,Condo,2023-03,360,6.41
+L000279,260000,700-739,91-95,21-30,NC,Refinance,Primary,Single Family,2023-03,360,4.26
+L000260,384000,660-699,61-70,<=20,MD,Cash-Out Refinance,Second Home,Single Family,2023-04,360,4.81
+L000368,426000,<620,61-70,21-30,MI,Cash-Out Refinance,Second Home,Single Family,2023-04,360,4.53
+L000267,289000,780+,71-80,<=20,OH,Refinance,Primary,Condo,2023-04,360,5.68
+L000014,408000,700-739,91-95,<=20,FL,Refinance,Second Home,2-4 Unit,2023-04,360,5.17
+L000435,258000,660-699,>95,<=20,MI,Cash-Out Refinance,Investment,Condo,2023-04,360,4.62
+L000031,293000,740-779,>95,41-50,NJ,Refinance,Investment,Condo,2023-04,360,4.4
+L000077,373000,660-699,91-95,41-50,OH,Cash-Out Refinance,Investment,Manufactured,2023-05,360,4.87
+L000495,269000,<620,71-80,31-40,NY,Refinance,Investment,Single Family,2023-05,360,4.17
+L000412,172000,780+,91-95,31-40,MA,Cash-Out Refinance,Investment,Single Family,2023-05,360,6.2
+L000314,278000,700-739,<=60,31-40,NC,Cash-Out Refinance,Investment,2-4 Unit,2023-05,360,4.64
+L000102,281000,620-659,81-90,>50,MA,Cash-Out Refinance,Investment,Condo,2023-05,360,4.51
+L000319,203000,700-739,<=60,41-50,NJ,Cash-Out Refinance,Second Home,Manufactured,2023-06,360,5.5
+L000293,192000,660-699,71-80,<=20,OH,Purchase,Second Home,2-4 Unit,2023-06,360,2.88
+L000230,167000,620-659,91-95,21-30,FL,Purchase,Investment,Manufactured,2023-06,360,4.36
+L000489,378000,780+,71-80,21-30,NC,Cash-Out Refinance,Primary,Single Family,2023-06,360,6.32
+L000126,438000,620-659,>95,21-30,NY,Purchase,Primary,2-4 Unit,2023-06,360,4.53
+L000411,224000,660-699,81-90,<=20,MO,Purchase,Primary,2-4 Unit,2023-07,360,2.95
+L000191,316000,<620,71-80,<=20,TX,Cash-Out Refinance,Investment,Condo,2023-07,360,4.38
+L000287,334000,620-659,>95,>50,IN,Refinance,Investment,Manufactured,2023-07,360,3.18
+L000372,405000,<620,61-70,>50,MO,Cash-Out Refinance,Second Home,Condo,2023-07,360,5.74
+L000244,274000,660-699,>95,31-40,WI,Cash-Out Refinance,Investment,Condo,2023-07,360,3.92
+L000282,346000,<620,71-80,21-30,GA,Purchase,Primary,Manufactured,2023-07,360,4.37
+L000174,431000,660-699,<=60,21-30,OH,Refinance,Second Home,Single Family,2023-08,360,2.7
+L000341,381000,<620,<=60,>50,MI,Refinance,Primary,Condo,2023-08,360,5.64
+L000236,420000,620-659,<=60,41-50,TN,Purchase,Primary,Condo,2023-08,360,5.95
+L000427,373000,740-779,61-70,21-30,MD,Refinance,Investment,Single Family,2023-08,360,3.88
+L000381,212000,780+,81-90,31-40,VA,Purchase,Primary,Condo,2023-09,360,4.94
+L000370,225000,700-739,>95,31-40,MO,Cash-Out Refinance,Second Home,Condo,2023-09,360,6.83
+L000213,363000,700-739,81-90,>50,CA,Purchase,Investment,Manufactured,2023-09,360,5.97
+L000378,455000,660-699,<=60,>50,WI,Cash-Out Refinance,Second Home,Single Family,2023-09,360,6.55
+L000395,214000,660-699,81-90,41-50,NC,Cash-Out Refinance,Investment,Manufactured,2023-09,360,3.07
+L000180,233000,700-739,71-80,>50,TX,Purchase,Primary,Single Family,2023-09,360,4.91
+L000461,440000,<620,>95,41-50,AZ,Refinance,Investment,2-4 Unit,2023-09,360,4.43
+L000388,197000,780+,81-90,>50,MI,Purchase,Primary,Single Family,2023-09,360,2.89
+L000261,159000,740-779,91-95,<=20,VA,Purchase,Primary,Condo,2023-09,360,6.17
+L000172,490000,<620,91-95,<=20,MO,Refinance,Primary,Manufactured,2023-10,360,4.81
+L000333,499000,780+,71-80,>50,VA,Refinance,Primary,2-4 Unit,2023-10,360,5.95
+L000181,331000,660-699,81-90,31-40,NJ,Purchase,Primary,2-4 Unit,2023-10,360,3.91
+L000142,473000,740-779,81-90,21-30,TN,Purchase,Investment,2-4 Unit,2023-10,360,5.56
+L000185,298000,<620,>95,41-50,IL,Cash-Out Refinance,Second Home,Single Family,2023-10,360,2.87
+L000123,357000,740-779,71-80,41-50,MD,Refinance,Investment,Single Family,2023-11,360,2.67
+L000045,377000,740-779,<=60,31-40,WA,Cash-Out Refinance,Investment,2-4 Unit,2023-11,360,3.56
+L000194,240000,780+,81-90,21-30,IL,Refinance,Investment,Manufactured,2023-11,360,6.19
+L000497,253000,620-659,71-80,41-50,NJ,Cash-Out Refinance,Investment,Manufactured,2023-11,360,6.07
+L000457,404000,780+,>95,31-40,VA,Cash-Out Refinance,Second Home,Single Family,2023-11,360,5.03
+L000078,337000,660-699,61-70,41-50,OH,Cash-Out Refinance,Investment,Single Family,2023-11,360,6.45
+L000092,296000,620-659,71-80,>50,AZ,Refinance,Second Home,Condo,2023-12,360,5.46
+L000066,152000,700-739,81-90,41-50,PA,Refinance,Investment,Manufactured,2023-12,360,3.77
+L000225,351000,740-779,71-80,>50,TX,Purchase,Investment,Single Family,2023-12,360,2.86
+L000143,411000,620-659,>95,31-40,CA,Cash-Out Refinance,Primary,Manufactured,2023-12,360,6.57
+L000003,402000,700-739,<=60,<=20,AZ,Refinance,Investment,Condo,2023-12,360,3.87

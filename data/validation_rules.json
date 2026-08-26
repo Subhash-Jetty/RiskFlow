@@ -1,0 +1,72 @@
+[
+    {
+        "rule_id": "R001",
+        "field": "current_balance",
+        "condition": "current_balance <= original_balance * 1.05",
+        "severity": "high",
+        "description": "Current balance should not exceed original balance by more than 5%"
+    },
+    {
+        "rule_id": "R002",
+        "field": "loan_age_months",
+        "condition": "loan_age_months >= 0",
+        "severity": "high",
+        "description": "Loan age cannot be negative"
+    },
+    {
+        "rule_id": "R003",
+        "field": "days_past_due",
+        "condition": "days_past_due >= 0",
+        "severity": "high",
+        "description": "DPD cannot be negative"
+    },
+    {
+        "rule_id": "R004",
+        "field": "interest_rate",
+        "condition": "interest_rate > 0 and interest_rate < 20",
+        "severity": "medium",
+        "description": "Interest rate should be between 0 and 20"
+    },
+    {
+        "rule_id": "R005",
+        "field": "original_balance",
+        "condition": "original_balance > 0",
+        "severity": "high",
+        "description": "Original balance must be positive"
+    },
+    {
+        "rule_id": "R006",
+        "field": "current_status",
+        "condition": "current_status in ['Current', '30DPD', '60DPD', '90DPD', 'Default', 'Prepaid']",
+        "severity": "high",
+        "description": "Invalid current status"
+    },
+    {
+        "rule_id": "R007",
+        "field": "credit_score_band",
+        "condition": "credit_score_band in ['<620', '620-659', '660-699', '700-739', '740-779', '780+']",
+        "severity": "medium",
+        "description": "Invalid credit score band"
+    },
+    {
+        "rule_id": "R008",
+        "field": "ltv_band",
+        "condition": "ltv_band in ['<=60', '61-70', '71-80', '81-90', '91-95', '>95']",
+        "severity": "medium",
+        "description": "Invalid LTV band"
+    },
+    {
+        "rule_id": "R009",
+        "field": "dti_band",
+        "condition": "dti_band in ['<=20', '21-30', '31-40', '41-50', '>50']",
+        "severity": "medium",
+        "description": "Invalid DTI band"
+    },
+    {
+        "rule_id": "R010",
+        "field": "document_status",
+        "condition": "document_status in ['Complete', 'Partial', 'Missing', 'Under Review']",
+        "severity": "low",
+        "description": "Invalid document status"
+    }
+]

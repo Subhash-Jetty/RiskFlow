@@ -1,0 +1,4 @@
+scenario_name,interest_rate_shift,unemployment_shift,hpi_shift,credit_tightening
+base,0.0,0.0,0.0,0
+adverse_credit,2.0,3.0,-10.0,1
+high_prepayment,-1.5,0.0,5.0,0
