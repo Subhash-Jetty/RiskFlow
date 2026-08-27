@@ -1,0 +1,290 @@
+{
+    "loan_age_months": {
+        "name": "loan_age_months",
+        "dtype": "numeric",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071884"
+    },
+    "remaining_term_months": {
+        "name": "remaining_term_months",
+        "dtype": "numeric",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071893"
+    },
+    "original_balance": {
+        "name": "original_balance",
+        "dtype": "numeric",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071897"
+    },
+    "current_balance": {
+        "name": "current_balance",
+        "dtype": "numeric",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071899"
+    },
+    "interest_rate": {
+        "name": "interest_rate",
+        "dtype": "numeric",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071901"
+    },
+    "days_past_due": {
+        "name": "days_past_due",
+        "dtype": "numeric",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071903"
+    },
+    "month_index": {
+        "name": "month_index",
+        "dtype": "numeric",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071905"
+    },
+    "modification_flag": {
+        "name": "modification_flag",
+        "dtype": "binary",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071909"
+    },
+    "prepayment_flag": {
+        "name": "prepayment_flag",
+        "dtype": "binary",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071911"
+    },
+    "default_flag": {
+        "name": "default_flag",
+        "dtype": "binary",
+        "source": "raw",
+        "computation": "direct from data",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071913"
+    },
+    "credit_score_band": {
+        "name": "credit_score_band",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071916"
+    },
+    "ltv_band": {
+        "name": "ltv_band",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071919"
+    },
+    "dti_band": {
+        "name": "dti_band",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071921"
+    },
+    "state": {
+        "name": "state",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071923"
+    },
+    "loan_purpose": {
+        "name": "loan_purpose",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071926"
+    },
+    "occupancy_type": {
+        "name": "occupancy_type",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071928"
+    },
+    "property_type": {
+        "name": "property_type",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071930"
+    },
+    "servicer_name": {
+        "name": "servicer_name",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071933"
+    },
+    "current_status": {
+        "name": "current_status",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071935"
+    },
+    "loss_severity_band": {
+        "name": "loss_severity_band",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071937"
+    },
+    "document_status": {
+        "name": "document_status",
+        "dtype": "categorical",
+        "source": "raw",
+        "computation": "label encoded",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071939"
+    },
+    "balance_ratio": {
+        "name": "balance_ratio",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "balance_ratio computation",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071943"
+    },
+    "rate_spread": {
+        "name": "rate_spread",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "rate_spread computation",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071946"
+    },
+    "loan_age_pct": {
+        "name": "loan_age_pct",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "loan_age_pct computation",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071949"
+    },
+    "rolling_dpd_mean_3m": {
+        "name": "rolling_dpd_mean_3m",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "rolling_dpd_mean_3m computation",
+        "is_lagged": true,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071951"
+    },
+    "rolling_dpd_mean_6m": {
+        "name": "rolling_dpd_mean_6m",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "rolling_dpd_mean_6m computation",
+        "is_lagged": true,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071953"
+    },
+    "rolling_dpd_mean_12m": {
+        "name": "rolling_dpd_mean_12m",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "rolling_dpd_mean_12m computation",
+        "is_lagged": true,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071955"
+    },
+    "rolling_dpd_std_6m": {
+        "name": "rolling_dpd_std_6m",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "rolling_dpd_std_6m computation",
+        "is_lagged": true,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071957"
+    },
+    "delinquency_event_count": {
+        "name": "delinquency_event_count",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "delinquency_event_count computation",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071959"
+    },
+    "servicer_conflict_flag": {
+        "name": "servicer_conflict_flag",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "servicer_conflict_flag computation",
+        "is_lagged": true,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071962"
+    },
+    "balance_change_pct": {
+        "name": "balance_change_pct",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "balance_change_pct computation",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071964"
+    },
+    "months_since_modification": {
+        "name": "months_since_modification",
+        "dtype": "numeric",
+        "source": "engineered",
+        "computation": "months_since_modification computation",
+        "is_lagged": false,
+        "version": "1.0",
+        "registered_at": "2026-08-31T11:53:49.071966"
+    }
+}
