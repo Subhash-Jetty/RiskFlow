@@ -259,3 +259,44 @@ SUBMISSION_COLUMNS = [
     "predicted_exception_type", "anomaly_score",
     "top_drivers", "recommended_action", "confidence_score",
 ]
+
+# ──────────────────────────────────────────────
+# 15. Monte Carlo simulation
+# ──────────────────────────────────────────────
+MONTE_CARLO_N_SIMULATIONS = 1000
+MONTE_CARLO_VAR_PERCENTILES = [95, 99]
+
+# ──────────────────────────────────────────────
+# 16. Experiment runner
+# ──────────────────────────────────────────────
+EXPERIMENT_GRID = [
+    dict(n_estimators=200, max_depth=4, learning_rate=0.1, subsample=0.7),
+    dict(n_estimators=300, max_depth=5, learning_rate=0.08, subsample=0.8),
+    dict(n_estimators=500, max_depth=6, learning_rate=0.05, subsample=0.8),
+    dict(n_estimators=700, max_depth=7, learning_rate=0.03, subsample=0.9),
+    dict(n_estimators=500, max_depth=4, learning_rate=0.05, subsample=0.7),
+    dict(n_estimators=300, max_depth=8, learning_rate=0.1, subsample=0.6),
+]
+EXPERIMENT_LOG_FILE = REPORT_DIR / "experiment_log.json"
+
+# ──────────────────────────────────────────────
+# 17. Feature store
+# ──────────────────────────────────────────────
+FEATURE_REGISTRY_FILE = MODEL_DIR / "feature_registry.json"
+
+# ──────────────────────────────────────────────
+# 18. Active learning
+# ──────────────────────────────────────────────
+ACTIVE_LEARNING_UNCERTAINTY_BAND = (0.35, 0.65)
+ACTIVE_LEARNING_BATCH_SIZE = 50
+HUMAN_FEEDBACK_FILE = DATA_DIR / "human_feedback.json"
+
+# ──────────────────────────────────────────────
+# 19. Dashboard
+# ──────────────────────────────────────────────
+DASHBOARD_PORT = 8501
+
+# ──────────────────────────────────────────────
+# 20. Stress sensitivity clustering
+# ──────────────────────────────────────────────
+CLUSTER_CORR_THRESHOLD = 0.5

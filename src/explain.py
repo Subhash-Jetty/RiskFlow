@@ -310,11 +310,63 @@ def generate_explainability_report(shap_results: dict, calibration_results: dict
     return "\n".join(lines)
 
 
+def generate_segmented_calibration(models: dict, X_test, y_test_dict, df_test) -> dict:
+    results = {}
+    target = config.TARGET_NEXT_12M_DEF
+    
+    if target not in models or 'xgb_calibrated' not in models[target]:
+        return results
+        
+    try:
+        model = models[target]['xgb_calibrated']
+        y_true = y_test_dict[target]
+        
+        if hasattr(model, "predict_proba"):
+            y_prob = model.predict_proba(X_test)[:, 1]
+        else:
+            y_prob = model.predict(X_test)
+            
+        fig, axes = plt.subplots(1, 2, figsize=(15, 6))
+        axes[0].plot([0, 1], [0, 1], 'k:')
+        axes[1].plot([0, 1], [0, 1], 'k:')
+        
+        if config.COL_ORIGINATION_MONTH in df_test.columns:
+            vintages = pd.to_datetime(df_test[config.COL_ORIGINATION_MONTH]).dt.year
+            for year in vintages.unique():
+                mask = (vintages == year)
+                if mask.sum() > 50:
+                    y_t = y_true[mask]
+                    y_p = y_prob[mask]
+                    fop, mpv = calibration_curve(y_t, y_p, n_bins=10)
+                    brier = brier_score_loss(y_t, y_p)
+                    axes[0].plot(mpv, fop, 's-', label=f'Vintage {year} (Brier: {brier:.3f})')
+                    
+        if config.COL_CREDIT_BAND in df_test.columns:
+            for band in config.CREDIT_BANDS:
+                mask = (df_test[config.COL_CREDIT_BAND] == band)
+                if mask.sum() > 50:
+                    y_t = y_true[mask]
+                    y_p = y_prob[mask]
+                    fop, mpv = calibration_curve(y_t, y_p, n_bins=10)
+                    brier = brier_score_loss(y_t, y_p)
+                    axes[1].plot(mpv, fop, 's-', label=f'Credit {band} (Brier: {brier:.3f})')
+                    
+        axes[0].set_title('Calibration by Vintage')
+        axes[0].legend()
+        axes[1].set_title('Calibration by Credit Band')
+        axes[1].legend()
+        plt.tight_layout()
+        plt.savefig(config.REPORT_DIR / 'calibration_by_segment.png')
+        plt.close()
+        
+    except Exception as e:
+        print(f"Error computing segmented calibration: {e}")
+        
+    return results
+
+
 def run_explainability(models: dict, X_train, X_test, y_test_dict, df_test,
                        feature_names: list) -> dict:
-    """Main entry point. Runs all explainability analyses.
-    Returns dict with all results + writes report to config.EXPLAINABILITY_REPORT."""
-    
     shap_results = {}
     target = config.TARGET_NEXT_12M_DEF
     
@@ -340,6 +392,7 @@ def run_explainability(models: dict, X_train, X_test, y_test_dict, df_test,
             print(f"Error computing SHAP: {e}")
             
     calib_results = generate_calibration_analysis(models, X_test, y_test_dict)
+    segmented_calib = generate_segmented_calibration(models, X_test, y_test_dict, df_test)
     error_results = analyze_errors(models, X_test, y_test_dict, feature_names)
     fairness_results = compute_fairness_metrics(models, X_test, y_test_dict, df_test, feature_names)
     confidence_results = compute_confidence_metrics(models, X_test)

@@ -12,6 +12,7 @@ from pathlib import Path
 
 import src.config as config
 from src import data_loader, features, train, survival, anomaly, scenario, explain, llm_copilot
+from src import competing_risk, monte_carlo, experiment_runner, feature_store, counterfactual, stress_clusters, active_learning
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)-7s | %(message)s")
 logger = logging.getLogger(__name__)
@@ -120,6 +121,42 @@ def main():
                         explain_results.get("shap_results", {}),
                         anomaly_results, data_dictionary, validation_rules, feature_names)
 
+    # ── 14. Feature Store Registry ──────────────────────────────────────
+    logger.info("[14] Building feature store registry …")
+    _safe("feature_store", feature_store.run_feature_store, feature_names)
+
+    # ── 15. Competing-Risk Survival ─────────────────────────────────────
+    logger.info("[15] Competing-risk survival …")
+    _safe("competing_risk", competing_risk.run_competing_risk_analysis, df_train_raw)
+
+    # ── 16. Agentic Experiment Runner ───────────────────────────────────
+    logger.info("[16] Agentic experiment runner …")
+    _safe("experiment_runner", experiment_runner.run_agentic_experiments,
+          X_train, y_train_dict, X_val, y_val_dict)
+
+    # ── 17. Monte Carlo Simulation ──────────────────────────────────────
+    logger.info("[17] Monte Carlo simulation …")
+    macro_df = pd.read_csv(config.MACRO_SCENARIOS_FILE)
+    mc_results = _safe("monte_carlo", monte_carlo.run_monte_carlo, X_val, models, feature_names, macro_df)
+    if mc_results:
+        _safe("mc_plot", monte_carlo.plot_monte_carlo_results, mc_results)
+        _safe("mc_report", monte_carlo.generate_monte_carlo_report, mc_results)
+
+    # ── 18. Counterfactual Explanations ─────────────────────────────────
+    logger.info("[18] Counterfactual explanations …")
+    _safe("counterfactual", counterfactual.run_counterfactual_analysis,
+          df_val, X_val, models, feature_names)
+
+    # ── 19. Stress Sensitivity by Cluster ───────────────────────────────
+    logger.info("[19] Stress sensitivity by feature cluster …")
+    _safe("stress_clusters", stress_clusters.run_stress_sensitivity,
+          X_val, models, feature_names)
+
+    # ── 20. Active Learning ─────────────────────────────────────────────
+    logger.info("[20] Human-in-the-loop active learning …")
+    _safe("active_learning", active_learning.run_active_learning,
+          models, X_train, y_train_dict, X_val, y_val_dict, df_train)
+
     # ── 12. Generate Data Quality Report ────────────────────────────────
     logger.info("[12] Generating data quality report …")
     _safe("data_quality_report", _generate_data_quality_report, df_train_raw, df_test_raw, validation_rules)
@@ -141,6 +178,24 @@ def _generate_data_quality_report(df_train, df_test, validation_rules):
     """Produce reports/data_quality_report.md with COMPUTED statistics."""
     lines = ["# Data Quality Report\n",
              "*(all numbers computed at runtime)*\n"]
+
+    # Calculate Data Quality Score (0-100)
+    score = 100.0
+    
+    # Penalty for missingness
+    total_missing_pct = df_train.isna().mean().mean() * 100
+    score -= total_missing_pct * 0.5  # Deduct 0.5 points per 1% missingness
+    
+    # Penalty for rule violations
+    if validation_rules:
+        from src import anomaly
+        rule_df = anomaly.compute_rule_violations(df_train, validation_rules)
+        violation_rate = (rule_df['rule_violations_count'] > 0).mean() * 100
+        score -= violation_rate * 0.5  # Deduct 0.5 points per 1% rows with violations
+        
+    score = max(0.0, min(100.0, score))
+    
+    lines.append(f"## Overall Data Quality Score: {score:.1f} / 100\n")
 
     # Column summary
     lines.append("## Column Overview\n")
