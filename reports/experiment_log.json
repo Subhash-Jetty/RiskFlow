@@ -1,0 +1,122 @@
+{
+    "experiments": [
+        {
+            "experiment_id": 0,
+            "config": {
+                "n_estimators": 200,
+                "max_depth": 4,
+                "learning_rate": 0.1,
+                "subsample": 0.7
+            },
+            "metrics": {
+                "roc_auc": 0.9982630824227982,
+                "pr_auc": 0.9999238181644545,
+                "f1": 0.9979661016949153,
+                "brier_score": 0.0035534233320504427
+            },
+            "training_time": 0.5106139183044434
+        },
+        {
+            "experiment_id": 1,
+            "config": {
+                "n_estimators": 300,
+                "max_depth": 5,
+                "learning_rate": 0.08,
+                "subsample": 0.8
+            },
+            "metrics": {
+                "roc_auc": 0.998293377496819,
+                "pr_auc": 0.9999253433733448,
+                "f1": 0.9983056590986107,
+                "brier_score": 0.0033679339103400707
+            },
+            "training_time": 0.6299006938934326
+        },
+        {
+            "experiment_id": 2,
+            "config": {
+                "n_estimators": 500,
+                "max_depth": 6,
+                "learning_rate": 0.05,
+                "subsample": 0.8
+            },
+            "metrics": {
+                "roc_auc": 0.998313574212833,
+                "pr_auc": 0.9999263347349727,
+                "f1": 0.9972862957937585,
+                "brier_score": 0.003556715091690421
+            },
+            "training_time": 1.0315310955047607
+        },
+        {
+            "experiment_id": 3,
+            "config": {
+                "n_estimators": 700,
+                "max_depth": 7,
+                "learning_rate": 0.03,
+                "subsample": 0.9
+            },
+            "metrics": {
+                "roc_auc": 0.9982731807808051,
+                "pr_auc": 0.9999244428784562,
+                "f1": 0.9972862957937585,
+                "brier_score": 0.0041381483897566795
+            },
+            "training_time": 1.1112041473388672
+        },
+        {
+            "experiment_id": 4,
+            "config": {
+                "n_estimators": 500,
+                "max_depth": 4,
+                "learning_rate": 0.05,
+                "subsample": 0.7
+            },
+            "metrics": {
+                "roc_auc": 0.9979197382505605,
+                "pr_auc": 0.9999092448365102,
+                "f1": 0.9983056590986107,
+                "brier_score": 0.003438173094764352
+            },
+            "training_time": 1.071887731552124
+        },
+        {
+            "experiment_id": 5,
+            "config": {
+                "n_estimators": 300,
+                "max_depth": 8,
+                "learning_rate": 0.1,
+                "subsample": 0.6
+            },
+            "metrics": {
+                "roc_auc": 0.99822268899077,
+                "pr_auc": 0.9999223437141291,
+                "f1": 0.9972862957937585,
+                "brier_score": 0.003687263000756502
+            },
+            "training_time": 0.5891051292419434
+        }
+    ],
+    "best_experiment": {
+        "experiment_id": 2,
+        "config": {
+            "n_estimators": 500,
+            "max_depth": 6,
+            "learning_rate": 0.05,
+            "subsample": 0.8
+        },
+        "metrics": {
+            "roc_auc": 0.998313574212833,
+            "pr_auc": 0.9999263347349727,
+            "f1": 0.9972862957937585,
+            "brier_score": 0.003556715091690421
+        },
+        "training_time": 1.0315310955047607
+    },
+    "best_config": {
+        "n_estimators": 500,
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "subsample": 0.8
+    }
+}

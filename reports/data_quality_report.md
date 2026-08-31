@@ -1,6 +1,8 @@
 # Data Quality Report
 
-*(auto-generated — all numbers computed at runtime)*
+*(all numbers computed at runtime)*
+
+## Overall Data Quality Score: 46.9 / 100
 
 ## Column Overview
 

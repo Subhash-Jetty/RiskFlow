@@ -1,0 +1,233 @@
+[
+    {
+        "index": 6436,
+        "loan_id": "L000164",
+        "predicted_prob": 0.4978385865688324,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 7307,
+        "loan_id": "L000192",
+        "predicted_prob": 0.5050962567329407,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 9136,
+        "loan_id": "L000237",
+        "predicted_prob": 0.47317445278167725,
+        "human_label": 0,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 19834,
+        "loan_id": "L000493",
+        "predicted_prob": 0.5287002921104431,
+        "human_label": 0,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 127,
+        "loan_id": "L000005",
+        "predicted_prob": 0.46201291680336,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 5427,
+        "loan_id": "L000141",
+        "predicted_prob": 0.45558997988700867,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 15438,
+        "loan_id": "L000392",
+        "predicted_prob": 0.45181894302368164,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 1438,
+        "loan_id": "L000040",
+        "predicted_prob": 0.4514301121234894,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 1768,
+        "loan_id": "L000048",
+        "predicted_prob": 0.451221764087677,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 12903,
+        "loan_id": "L000323",
+        "predicted_prob": 0.43923625349998474,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 16533,
+        "loan_id": "L000419",
+        "predicted_prob": 0.43673616647720337,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 103,
+        "loan_id": "L000005",
+        "predicted_prob": 0.4346705973148346,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 12959,
+        "loan_id": "L000324",
+        "predicted_prob": 0.5728780627250671,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 5747,
+        "loan_id": "L000149",
+        "predicted_prob": 0.4237792193889618,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 10638,
+        "loan_id": "L000271",
+        "predicted_prob": 0.4207582175731659,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 99,
+        "loan_id": "L000005",
+        "predicted_prob": 0.4187469482421875,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 19501,
+        "loan_id": "L000488",
+        "predicted_prob": 0.4178886413574219,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 5463,
+        "loan_id": "L000144",
+        "predicted_prob": 0.4163510799407959,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 11602,
+        "loan_id": "L000295",
+        "predicted_prob": 0.5839753150939941,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 8859,
+        "loan_id": "L000228",
+        "predicted_prob": 0.5851925611495972,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 9117,
+        "loan_id": "L000237",
+        "predicted_prob": 0.5931510329246521,
+        "human_label": 0,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 126,
+        "loan_id": "L000005",
+        "predicted_prob": 0.405559778213501,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 13344,
+        "loan_id": "L000335",
+        "predicted_prob": 0.3961368799209595,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 19405,
+        "loan_id": "L000485",
+        "predicted_prob": 0.39150404930114746,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 102,
+        "loan_id": "L000005",
+        "predicted_prob": 0.3894992470741272,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 2747,
+        "loan_id": "L000070",
+        "predicted_prob": 0.38522860407829285,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 19404,
+        "loan_id": "L000485",
+        "predicted_prob": 0.6162053346633911,
+        "human_label": 1,
+        "reviewer_confidence": "high"
+    },
+    {
+        "index": 9465,
+        "loan_id": "L000245",
+        "predicted_prob": 0.6168502569198608,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 535,
+        "loan_id": "L000012",
+        "predicted_prob": 0.37432023882865906,
+        "human_label": 0,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 19512,
+        "loan_id": "L000488",
+        "predicted_prob": 0.36904069781303406,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 104,
+        "loan_id": "L000005",
+        "predicted_prob": 0.36743760108947754,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 16720,
+        "loan_id": "L000422",
+        "predicted_prob": 0.3614823520183563,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    },
+    {
+        "index": 15153,
+        "loan_id": "L000387",
+        "predicted_prob": 0.3502906262874603,
+        "human_label": 1,
+        "reviewer_confidence": "medium"
+    }
+]
